@@ -11,7 +11,7 @@ import Olimo from './images/OlimoVerySmurt.png';
 
 const Oli = styled.section`
     width: 100%;
-    background-color: #65473c;
+    background-color: #b87d4b;
     text-align: center;
     ;`
 
