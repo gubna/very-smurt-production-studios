@@ -11,7 +11,7 @@ import Olimo from './images/OlimoVerySmurt.png';
 
 const Oli = styled.section`
     width: 100%;
-    background-color: #b87d4b;
+    background-color: #8d99ae;
     text-align: center;
     ;`
 
@@ -22,12 +22,14 @@ function Album() {
     <Card>
         <Oli>
       <CardActionArea>
+        
       <CardMedia
           component="img"
           alt="Very Smurt"
           image={Olimo}
           title="Very Smurt Production Studios"
         />
+        
         <CardContent>
           <Typography gutterBottom variant="h6" component="h6">
           Latest Album from Very Smurt Studios titled "Olimo"
@@ -35,9 +37,7 @@ function Album() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        
         <Button  size="small" color="primary" ><a href="https://m.soundcloud.com/user-187536119/sets/olimo-1">Album Link</a>
-          
         </Button>
       </CardActions>
       </Oli>

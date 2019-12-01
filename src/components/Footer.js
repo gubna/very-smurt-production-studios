@@ -10,7 +10,7 @@ import { FaSoundcloud} from "react-icons/fa";
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #cff27e;
+  background-color: #2b2d42;
   text-align: center;
   `;
 
