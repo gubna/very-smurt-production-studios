@@ -7,13 +7,23 @@ import MenuItem from '@material-ui/core/MenuItem';
 
 
 const Fixed = styled.div`
-height: 3em;
+height: 7em;
 position: fixed;
 width: 100%;
-background-color: #65473c;
+background-color: #e5b25d;
 text-align: center;
-font-size: 2em;
+font-size: 1em;
+color: #5b5c5f;
 `;
+
+const Link = styled.button`
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+display: flex;
+justify-content: left;
+margin: 1em;
+border-radius: 20px;
+background-color: #cff27e;
+;`
     
     export default function ButtonAppBar() {
       const [anchorEl, setAnchorEl] = React.useState(null);
@@ -30,9 +40,11 @@ font-size: 2em;
     <div>
       <AppBar>
       <Fixed>
+        <Link>
       <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Links to My Media
+       Where to find me
       </Button>
+      </Link>
       <Menu
         id="simple-menu"
         anchorEl={anchorEl}
@@ -44,7 +56,7 @@ font-size: 2em;
         <MenuItem onClick={handleClose}><a href="https://www.youtube.com/channel/UC3tpezH88Fou-R4w69VuiJA">YouTube</a></MenuItem>
         <MenuItem onClick={handleClose}><a href="https://soundcloud.com/user-187536119">soundcloud</a></MenuItem>
       </Menu><br></br>
-        Very Smurt Studios
+        Very Smurt Production Studios
         </Fixed>
       </AppBar>
     

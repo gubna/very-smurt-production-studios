@@ -4,7 +4,7 @@ import styled from 'styled-components';
   const Embed = styled.div`
   text-align: center;
   width: 100%;
-  background-color: #65473c;
+  background-color: #523a34;
   padding-top: 1em;
   padding-bottom: 5em;
   `;
