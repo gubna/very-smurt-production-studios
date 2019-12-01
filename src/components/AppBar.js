@@ -27,7 +27,7 @@ justify-content: left;
 margin: 4px;
 border-radius: 12px;
 background-color: #8d99ae;
-height: 2em;
+height: 2.7em;
 width: 50%;
 ;`
     
